@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loreal.Entities", "Loreal.Entities\Loreal.Entities.csproj", "{2C21BA13-1226-4903-A559-A04F6EB372E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreal.Entities", "Loreal.Entities\Loreal.Entities.csproj", "{2C21BA13-1226-4903-A559-A04F6EB372E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loreal.Dal", "Loreal.Dal\Loreal.Dal.csproj", "{2C7EA699-52EB-4727-B36C-4A2C61E04FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreRepository", "CoreRepository\CoreRepository.csproj", "{2C4591FD-FA6C-4985-858A-6FD620BD1815}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2C21BA13-1226-4903-A559-A04F6EB372E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C21BA13-1226-4903-A559-A04F6EB372E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C21BA13-1226-4903-A559-A04F6EB372E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7EA699-52EB-4727-B36C-4A2C61E04FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7EA699-52EB-4727-B36C-4A2C61E04FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7EA699-52EB-4727-B36C-4A2C61E04FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7EA699-52EB-4727-B36C-4A2C61E04FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4591FD-FA6C-4985-858A-6FD620BD1815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4591FD-FA6C-4985-858A-6FD620BD1815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4591FD-FA6C-4985-858A-6FD620BD1815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4591FD-FA6C-4985-858A-6FD620BD1815}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
