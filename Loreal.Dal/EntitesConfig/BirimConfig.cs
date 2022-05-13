@@ -13,7 +13,7 @@ namespace Loreal.Dal.EntitesConfig
     {
         public void Configure(EntityTypeBuilder<Birim> builder)
         {
-            throw new NotImplementedException();
+           
         }
     }
 }

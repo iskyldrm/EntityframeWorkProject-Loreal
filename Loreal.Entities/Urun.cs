@@ -8,9 +8,9 @@
         public Birim Birim { get; set; }
         public string Barkod { get; set; }
         public IList<Kategori> Kategoriler { get; set; }
-
         public IList<UrunFiyat> Fiyat { get; set; }
-
+        public int KdvId { get; set; }
+        public Kdv Kdv { get; set; }
         public decimal MinStokSeviyesi { get; set; }
         public decimal StokMiktarı { get; set; }
         public IList<UrunFoto> Fotoğraflar { get; set; }

@@ -13,7 +13,7 @@ namespace Loreal.Dal.EntitesConfig
     {
         public void Configure(EntityTypeBuilder<Marka> builder)
         {
-            throw new NotImplementedException();
+           
         }
     }
 }

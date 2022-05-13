@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loreal.Dal", "Loreal.Dal\Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreRepository", "CoreRepository\CoreRepository.csproj", "{2C4591FD-FA6C-4985-858A-6FD620BD1815}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loreal.BL", "Loreal.BL\Loreal.BL.csproj", "{80C5A0D3-CE45-4BA7-A576-BB3E735277FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2C4591FD-FA6C-4985-858A-6FD620BD1815}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C4591FD-FA6C-4985-858A-6FD620BD1815}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C4591FD-FA6C-4985-858A-6FD620BD1815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C5A0D3-CE45-4BA7-A576-BB3E735277FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C5A0D3-CE45-4BA7-A576-BB3E735277FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C5A0D3-CE45-4BA7-A576-BB3E735277FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C5A0D3-CE45-4BA7-A576-BB3E735277FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

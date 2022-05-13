@@ -8,9 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Loreal.Dal.Concrete.EfCore
+namespace Loreal.Dal.Concrete
 {
-    public class BirimDAL:RepositoryBase<Birim,SqlDbContext>,IBirimDAL
+    public class KavSqlDal:RepositoryBase<Kdv,SqlDbContext>,IKdvDAL
     {
     }
 }
